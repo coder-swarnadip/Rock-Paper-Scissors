@@ -40,7 +40,7 @@ const resetGame = function(){
 }
 
 const drawGame= function(){
-    console.log("draw");
+    //console.log("draw");
     msg.innerText="Game was Draw. Play again.";
     msg.style.backgroundColor = "black";
     moves.classList.remove("hide");
@@ -81,8 +81,8 @@ const computerChoice= function(){
 
 const playgame=function(x){
     const computerInput=computerChoice();
-    console.log(x);
-    console.log(computerInput);
+  //  console.log(x);
+  //  console.log(computerInput);
     
     if(computerInput == x){
         
@@ -94,17 +94,17 @@ const playgame=function(x){
    
     if(x=="rock"){
         userWin= computerInput=="paper"?false:true;
-        console.log(userWin);
+      //  console.log(userWin);
 
     }
     else if(x=="paper"){
         userWin= computerInput=="scissors"?false:true;
-        console.log(userWin);
+       // console.log(userWin);
 
     }
     else{
         userWin= computerInput=="rock"?false:true;
-        console.log(userWin);
+       // console.log(userWin);
     }
 
 
