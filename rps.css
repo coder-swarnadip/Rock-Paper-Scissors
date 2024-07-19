@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+   
+}
+body{
+    background-color: #caf0f8;
+}
+h1{
+    background-color: #480CA8;
+    color: aliceblue;
+    height: 5rem;
+    line-height: 5rem;
+
+}
+
+.choice{
+    height: 160px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 4rem;
+
+}
+
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choice:hover{
+    opacity: 60%;
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgb(45, 45, 45);
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.score{
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-container{
+    margin-top: 3rem;
+
+}
+
+#msg{
+   
+    background-color: #480CA8;
+    color: aliceblue;
+    font-size: 2rem;
+   padding: 1rem;
+   border-radius: 1rem;
+    display: inline;
+
+
+}
+
+.input{
+    height: 160px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+
+.moves{
+    
+    color: aliceblue;
+   
+   padding: 1rem;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.move{
+    background-color: #8e067a;
+    color: aliceblue;
+    font-size: 2rem;
+   padding: 5px;
+   border-radius: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.round{
+    background-color: #3F37C9;
+    margin-left: 1rem;
+    margin-right:1rem ;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    border-radius: 50%;
+}
+
+#reset{
+    padding: 1rem;
+    background-color: #480CA8;
+    color: aliceblue;
+    border-radius: 1rem;
+    font-family: 'Gill Sans';
+    font-size: 4vmin;
+    margin-top: 2rem;
+}
+#reset:hover{
+    opacity: 60%;
+    cursor: pointer;
+  
+
+}
+
+
+.hide{
+    display: none;
+}

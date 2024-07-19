@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-scissors</title>
+    <link rel="stylesheet" href="rps.css">
+</head>
+<body>
+    <h1>Rock-Paper-Scissors</h1>
+    <div class="choices" >
+
+        <div class="choice" id="rock">
+            <img src="images/rock.png" alt="">
+        </div>
+
+
+        <div class="choice" id="paper">
+            <img src="images/paper.png" alt="">
+        </div>
+
+
+        <div class="choice" id="scissors">
+            <img src="images/scissors.png" alt="">
+        </div>
+
+    </div>
+
+
+
+
+
+
+<div class="moves hide">
+    <div class="move" >
+
+        <p >Your Move</p>
+        <div class="input hide" id="u-rock">
+            <img src="images/rock.png" alt="">
+        </div>
+
+
+        <div class="input hide" id="u-paper">
+            <img src="images/paper.png" alt="">
+        </div>
+
+
+        <div class="input hide" id="u-scissors">
+            <img src="images/scissors.png" alt="">
+        </div>
+    </div>
+
+    <div class="round"><h4>Round:</h4><br><p id="r-count">0</p></div>
+
+    
+    <div class="move " >
+        <div class="input hide" id="c-rock">
+            <img src="images/rock.png" alt="">
+        </div>
+
+
+        <div class="input hide" id="c-paper">
+            <img src="images/paper.png" alt="">
+        </div>
+
+
+        <div class="input hide" id="c-scissors">
+            <img src="images/scissors.png" alt="">
+        </div>
+
+        <p >Computer Move</p>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+    <div class="score-board">
+
+       
+
+
+        <div class="score">
+           
+
+            <p id="user-score">0</p>
+            <p>YOU</p> 
+        </div>
+
+        <div class="score" >
+
+
+          
+            <p id="computer-score">0</p>
+            <p >cpmputer</p>
+
+        </div>
+
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">play your move</p>
+    </div>
+
+
+    <button class="hide" id="reset">Restart Game</button>
+
+
+
+
+
+
+
+
+    <script src="rps.js"></script>
+    
+</body>
+</html>
